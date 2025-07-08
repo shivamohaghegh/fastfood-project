@@ -36,7 +36,7 @@ const ContactUs = () => {
                 className="rounded"
               ></iframe>
             </div>
-            <p className="text-muted mt-2">
+            <p className="text-secondary mt-2">
               Tehran, Valiasr Street, Building No. 123
               <br />
               Phone: +98 912 003 8325

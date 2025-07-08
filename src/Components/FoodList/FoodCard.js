@@ -20,7 +20,7 @@ const FoodCard = ({ foods }) => {
                 {food.ingredients.join(", ")}
               </p>
               <button href="#" className="btn btn-sm btn-outline-success">
-                Add To Card
+                Add To Cart
               </button>
             </div>
           </div>

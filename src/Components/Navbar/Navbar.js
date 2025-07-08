@@ -2,7 +2,7 @@ import SearchBox from "../SearchBox/SearchBox";
 import NavbarItems from "./NavbarItems";
 import { CiPizza } from "react-icons/ci";
 import UserButton from "../User/UserButton";
-import ShoppingCardButton from "../ShoppingCard/ShoppingCardButton";
+import ShoppingCartButton from "../ShoppingCart/ShoppingCartButton";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
           <SearchBox />
           <div className="navbar-btn d-flex align-items-center gap-3">
             <UserButton />
-            <ShoppingCardButton />
+            <ShoppingCartButton />
           </div>
         </div>
       </div>

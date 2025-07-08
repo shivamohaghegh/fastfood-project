@@ -3,7 +3,7 @@ import LandingPage from "./Pages/LandingPage";
 import MainLayout from "./Components/MainLayout/MainLayout";
 import Product from "./Pages/ProductsPage";
 import User from "./Pages/UserPage";
-import ShoppingCardPage from "./Pages/ShoppingCardPage";
+import ShoppingCartPage from "./Pages/ShoppingCartPage";
 import "./App.css";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Route element={<MainLayout />}>
           <Route path="/product" element={<Product />} />
           <Route path="/user" element={<User />} />
-          <Route path="/card" element={<ShoppingCardPage />} />
+          <Route path="/cart" element={<ShoppingCartPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

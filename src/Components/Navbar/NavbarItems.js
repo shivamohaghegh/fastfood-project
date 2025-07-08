@@ -24,7 +24,7 @@ const NavbarItems = () => {
       {loading ? (
         <Loading />
       ) : error ? (
-         <NavbarError onRetry={refetch} />
+        <NavbarError onRetry={refetch} />
       ) : (
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
@@ -37,14 +37,11 @@ const NavbarItems = () => {
             </button>
           </li>
           {categoryItems?.map((category) => (
-            <li
-              className={`nav-item ${
-                categoryValue === category.name ? "active" : ""
-              }`}
-              key={category.id}
-            >
+            <li className="nav-item" key={category.id}>
               <button
-                className="nav-link"
+                className={`nav-link ${
+                  categoryValue === category.name ? "active" : ""
+                }`}
                 data-category={category.name}
                 onClick={handleCategory}
               >
